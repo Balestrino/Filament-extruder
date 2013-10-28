@@ -1,0 +1,161 @@
+700 0 1 0           
+15 SolidWorks 2011 12 ACIS 19.0 NT 24 Wed May 08 16:03:00 2013 
+1 9.9999999999999995e-007 1e-010 
+-0 body $1 -1 $-1 $2 $-1 $-1 #
+-1 name_attrib-gen-attrib $-1 -1 $-1 $-1 $0 keep keep_kept ignore copy @8 raccordo #
+-2 lump $3 -1 $-1 $-1 $4 $0 #
+-3 rgb_color-st-attrib $-1 -1 $-1 $-1 $2 0.792156862745098 0.81960784313725488 0.93333333333333335 #
+-4 shell $-1 -1 $-1 $-1 $-1 $5 $-1 $2 #
+-5 face $6 -1 $-1 $7 $8 $4 $-1 $9 reversed single #
+-6 integer_attrib-name_attrib-gen-attrib $-1 -1 $10 $-1 $5 copy keep_kept ignore copy @18 Taglio-Estrusione1 0 #
+-7 face $11 -1 $-1 $12 $13 $4 $-1 $14 forward single #
+-8 loop $-1 -1 $-1 $-1 $15 $5 #
+-9 cone-surface $-1 -1 $-1 0 0 30 -0 -0 -1 -11 0 0 1 I I 0 1 11 forward I I I I #
+-10 rgb_color-st-attrib $-1 -1 $-1 $6 $5 0.792156862745098 0.81960784313725488 0.93333333333333335 #
+-11 integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $7 copy keep_kept ignore copy @18 Taglio-Estrusione1 0 #
+-12 face $16 -1 $-1 $17 $18 $4 $-1 $19 forward single #
+-13 loop $-1 -1 $-1 $-1 $20 $7 #
+-14 cone-surface $-1 -1 $-1 0 0 30 -0 -0 -1 -16 0 0 1 I I 0 1 16 forward I I I I #
+-15 coedge $-1 -1 $-1 $21 $22 $23 $24 forward $8 $-1 #
+-16 integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $12 copy keep_kept ignore copy @18 Taglio-Estrusione1 0 #
+-17 face $25 -1 $-1 $26 $27 $4 $-1 $28 forward single #
+-18 loop $-1 -1 $-1 $-1 $29 $12 #
+-19 cone-surface $-1 -1 $-1 0 0 30 -0 -0 -1 -16 0 0 1 I I 0 1 16 forward I I I I #
+-20 coedge $-1 -1 $-1 $30 $31 $32 $33 reversed $13 $-1 #
+-21 coedge $-1 -1 $-1 $34 $15 $35 $36 forward $8 $-1 #
+-22 coedge $-1 -1 $-1 $15 $34 $37 $38 reversed $8 $-1 #
+-23 coedge $-1 -1 $-1 $39 $39 $15 $24 reversed $40 $-1 #
+-24 edge $-1 -1 $-1 $41 -3.1415926535897931 $42 1.224646799147353e-016 $15 $43 forward @7 unknown #
+-25 integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $17 copy keep_kept ignore copy @18 Taglio-Estrusione1 0 #
+-26 face $44 -1 $-1 $45 $46 $4 $-1 $47 reversed single #
+-27 loop $-1 -1 $-1 $40 $48 $17 #
+-28 plane-surface $-1 -1 $-1 0 0 30 0 0 1 1000 0 0 forward_v I I I I #
+-29 coedge $-1 -1 $-1 $49 $50 $51 $52 reversed $18 $-1 #
+-30 coedge $-1 -1 $-1 $53 $20 $54 $55 forward $13 $-1 #
+-31 coedge $-1 -1 $-1 $20 $53 $56 $57 forward $13 $-1 #
+-32 coedge $-1 -1 $-1 $48 $58 $20 $33 forward $27 $-1 #
+-33 edge $-1 -1 $-1 $59 -3.1415926535897931 $60 -2.0761568370790533 $32 $61 forward @7 unknown #
+-34 coedge $-1 -1 $-1 $22 $21 $62 $63 reversed $8 $-1 #
+-35 coedge $-1 -1 $-1 $64 $65 $21 $36 reversed $66 $-1 #
+-36 edge $-1 -1 $-1 $42 -0 $67 0.029999999999999999 $21 $68 forward @7 unknown #
+-37 coedge $-1 -1 $-1 $65 $64 $22 $38 forward $66 $-1 #
+-38 edge $-1 -1 $-1 $41 -0 $69 0.029999999999999999 $37 $70 forward @7 unknown #
+-39 coedge $-1 -1 $-1 $23 $23 $64 $71 reversed $40 $-1 #
+-40 loop $-1 -1 $-1 $-1 $23 $17 #
+-41 vertex $-1 -1 $-1 $71 $72 #
+-42 vertex $-1 -1 $-1 $36 $73 #
+-43 ellipse-curve $-1 -1 $-1 0 0 30 0 0 1 11 0 0 1 I I #
+-44 integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $26 copy keep_kept ignore copy @18 Taglio-Estrusione1 0 #
+-45 face $74 -1 $-1 $75 $76 $4 $-1 $77 forward single #
+-46 loop $-1 -1 $-1 $78 $79 $26 #
+-47 plane-surface $-1 -1 $-1 0 0 0 0 0 1 1000 0 0 forward_v I I I I #
+-48 coedge $-1 -1 $-1 $51 $32 $80 $81 reversed $27 $-1 #
+-49 coedge $-1 -1 $-1 $82 $29 $83 $84 forward $18 $-1 #
+-50 coedge $-1 -1 $-1 $29 $82 $85 $86 forward $18 $-1 #
+-51 coedge $-1 -1 $-1 $87 $48 $29 $52 forward $27 $-1 #
+-52 edge $-1 -1 $-1 $88 -1.0654358165107394 $89 1.0654358165107398 $51 $90 forward @7 unknown #
+-53 coedge $-1 -1 $-1 $31 $30 $91 $92 forward $13 $-1 #
+-54 coedge $-1 -1 $-1 $93 $94 $30 $55 reversed $76 $-1 #
+-55 edge $-1 -1 $-1 $59 -0 $95 0.029999999999999999 $30 $96 forward @7 unknown #
+-56 coedge $-1 -1 $-1 $97 $80 $31 $57 reversed $98 $-1 #
+-57 edge $-1 -1 $-1 $99 -0.029999999999999999 $60 0 $31 $100 forward @7 unknown #
+-58 coedge $-1 -1 $-1 $32 $87 $93 $101 forward $27 $-1 #
+-59 vertex $-1 -1 $-1 $55 $102 #
+-60 vertex $-1 -1 $-1 $33 $103 #
+-61 ellipse-curve $-1 -1 $-1 0 0 30 0 0 1 16 0 0 1 I I #
+-62 coedge $-1 -1 $-1 $104 $104 $34 $63 forward $78 $-1 #
+-63 edge $-1 -1 $-1 $69 -3.1415926535897931 $67 1.224646799147353e-016 $62 $105 forward @7 unknown #
+-64 coedge $-1 -1 $-1 $37 $35 $39 $71 forward $66 $-1 #
+-65 coedge $-1 -1 $-1 $35 $37 $104 $106 reversed $66 $-1 #
+-66 loop $-1 -1 $-1 $-1 $35 $75 #
+-67 vertex $-1 -1 $-1 $36 $107 #
+-68 straight-curve $-1 -1 $-1 11 1.3471114790620884e-015 30 -0 -0 -1000 I I #
+-69 vertex $-1 -1 $-1 $106 $108 #
+-70 straight-curve $-1 -1 $-1 -11 0 30 -0 -0 -1000 I I #
+-71 edge $-1 -1 $-1 $42 1.224646799147353e-016 $41 3.1415926535897931 $64 $109 forward @7 unknown #
+-72 point $-1 -1 $-1 -11 0 30 #
+-73 point $-1 -1 $-1 11 1.3471114790620884e-015 30 #
+-74 integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $45 copy keep_kept ignore copy @18 Taglio-Estrusione1 0 #
+-75 face $110 -1 $-1 $111 $66 $4 $-1 $112 reversed single #
+-76 loop $-1 -1 $-1 $-1 $54 $45 #
+-77 cone-surface $-1 -1 $-1 0 0 30 -0 -0 -1 -16 0 0 1 I I 0 1 16 forward I I I I #
+-78 loop $-1 -1 $-1 $-1 $62 $26 #
+-79 coedge $-1 -1 $-1 $113 $114 $82 $115 reversed $46 $-1 #
+-80 coedge $-1 -1 $-1 $56 $83 $48 $81 forward $98 $-1 #
+-81 edge $-1 -1 $-1 $88 -0.026609500798543118 $60 -0.011117567413713458 $80 $116 forward @7 unknown #
+-82 coedge $-1 -1 $-1 $50 $49 $79 $115 forward $18 $-1 #
+-83 coedge $-1 -1 $-1 $80 $97 $49 $84 reversed $98 $-1 #
+-84 edge $-1 -1 $-1 $88 -0 $117 0.029999999999999999 $49 $118 forward @7 unknown #
+-85 coedge $-1 -1 $-1 $119 $120 $50 $86 reversed $121 $-1 #
+-86 edge $-1 -1 $-1 $122 -0.029999999999999999 $89 0 $50 $123 forward @7 unknown #
+-87 coedge $-1 -1 $-1 $58 $51 $120 $124 reversed $27 $-1 #
+-88 vertex $-1 -1 $-1 $84 $125 #
+-89 vertex $-1 -1 $-1 $52 $126 #
+-90 ellipse-curve $-1 -1 $-1 0 0 30 0 0 1 16 0 0 1 I I #
+-91 coedge $-1 -1 $-1 $127 $113 $53 $92 reversed $46 $-1 #
+-92 edge $-1 -1 $-1 $95 -3.1415926535897931 $99 -2.0761568370790533 $53 $128 forward @7 unknown #
+-93 coedge $-1 -1 $-1 $129 $54 $58 $101 reversed $76 $-1 #
+-94 coedge $-1 -1 $-1 $54 $129 $127 $130 forward $76 $-1 #
+-95 vertex $-1 -1 $-1 $55 $131 #
+-96 straight-curve $-1 -1 $-1 -16 0 30 -0 -0 -1000 I I #
+-97 coedge $-1 -1 $-1 $83 $56 $113 $132 reversed $98 $-1 #
+-98 loop $-1 -1 $-1 $-1 $80 $133 #
+-99 vertex $-1 -1 $-1 $92 $134 #
+-100 straight-curve $-1 -1 $-1 -7.7459666924148305 -14.000000000000002 30 0 0 1000 I I #
+-101 edge $-1 -1 $-1 $135 2.0761568370790533 $59 3.1415926535897931 $58 $136 forward @7 unknown #
+-102 point $-1 -1 $-1 -16 0 30 #
+-103 point $-1 -1 $-1 -7.7459666924148305 -14.000000000000002 30 #
+-104 coedge $-1 -1 $-1 $62 $62 $65 $106 forward $78 $-1 #
+-105 ellipse-curve $-1 -1 $-1 0 0 0 0 0 1 11 0 0 1 I I #
+-106 edge $-1 -1 $-1 $67 1.224646799147353e-016 $69 3.1415926535897931 $104 $137 forward @7 unknown #
+-107 point $-1 -1 $-1 11 1.3471114790620884e-015 0 #
+-108 point $-1 -1 $-1 -11 0 0 #
+-109 ellipse-curve $-1 -1 $-1 0 0 30 0 0 1 11 0 0 1 I I #
+-110 integer_attrib-name_attrib-gen-attrib $-1 -1 $138 $-1 $75 copy keep_kept ignore copy @18 Taglio-Estrusione1 0 #
+-111 face $139 -1 $-1 $133 $121 $4 $-1 $140 reversed single #
+-112 cone-surface $-1 -1 $-1 0 0 30 -0 -0 -1 -11 0 0 1 I I 0 1 11 forward I I I I #
+-113 coedge $-1 -1 $-1 $91 $79 $97 $132 forward $46 $-1 #
+-114 coedge $-1 -1 $-1 $79 $127 $119 $141 forward $46 $-1 #
+-115 edge $-1 -1 $-1 $117 -1.0654358165107394 $122 1.0654358165107398 $82 $142 forward @7 unknown #
+-116 straight-curve $-1 -1 $-1 -18.863534106128288 -14.000000000000002 30 -1000 -0 -0 I I #
+-117 vertex $-1 -1 $-1 $132 $143 #
+-118 straight-curve $-1 -1 $-1 7.7459666924148305 -14.000000000000002 30 -0 -0 -1000 I I #
+-119 coedge $-1 -1 $-1 $144 $85 $114 $141 reversed $121 $-1 #
+-120 coedge $-1 -1 $-1 $85 $144 $87 $124 forward $121 $-1 #
+-121 loop $-1 -1 $-1 $-1 $120 $111 #
+-122 vertex $-1 -1 $-1 $115 $145 #
+-123 straight-curve $-1 -1 $-1 7.7459666924148234 14.000000000000005 30 0 0 1000 I I #
+-124 edge $-1 -1 $-1 $135 0.010048487659735161 $89 0.025540421044564818 $120 $146 forward @7 unknown #
+-125 point $-1 -1 $-1 7.7459666924148305 -14.000000000000002 30 #
+-126 point $-1 -1 $-1 7.7459666924148234 14.000000000000005 30 #
+-127 coedge $-1 -1 $-1 $114 $91 $94 $130 reversed $46 $-1 #
+-128 ellipse-curve $-1 -1 $-1 0 0 0 0 0 1 16 0 0 1 I I #
+-129 coedge $-1 -1 $-1 $94 $93 $144 $147 forward $76 $-1 #
+-130 edge $-1 -1 $-1 $148 2.0761568370790533 $95 3.1415926535897931 $94 $149 forward @7 unknown #
+-131 point $-1 -1 $-1 -16 0 0 #
+-132 edge $-1 -1 $-1 $117 -0.026609500798543118 $99 -0.011117567413713458 $113 $150 forward @7 unknown #
+-133 face $151 -1 $-1 $-1 $98 $4 $-1 $152 reversed single #
+-134 point $-1 -1 $-1 -7.7459666924148305 -14.000000000000002 0 #
+-135 vertex $-1 -1 $-1 $147 $153 #
+-136 ellipse-curve $-1 -1 $-1 0 0 30 0 0 1 16 0 0 1 I I #
+-137 ellipse-curve $-1 -1 $-1 0 0 0 0 0 1 11 0 0 1 I I #
+-138 rgb_color-st-attrib $-1 -1 $-1 $110 $75 0.792156862745098 0.81960784313725488 0.93333333333333335 #
+-139 integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $111 copy keep_kept ignore copy @18 Taglio-Estrusione1 0 #
+-140 plane-surface $-1 -1 $-1 -17.794454352149991 13.999999999999998 0 2.5874382142766019e-016 -1 0 1000 2.5874382142766018e-013 0 forward_v I I I I #
+-141 edge $-1 -1 $-1 $148 0.010048487659735161 $122 0.025540421044564818 $114 $154 forward @7 unknown #
+-142 ellipse-curve $-1 -1 $-1 0 0 0 0 0 1 16 0 0 1 I I #
+-143 point $-1 -1 $-1 7.7459666924148305 -14.000000000000002 0 #
+-144 coedge $-1 -1 $-1 $120 $119 $129 $147 reversed $121 $-1 #
+-145 point $-1 -1 $-1 7.7459666924148234 14.000000000000005 0 #
+-146 straight-curve $-1 -1 $-1 -17.794454352149991 13.999999999999998 30 1000 2.5874382142766018e-013 0 I I #
+-147 edge $-1 -1 $-1 $135 -0 $148 0.029999999999999999 $129 $155 forward @7 unknown #
+-148 vertex $-1 -1 $-1 $141 $156 #
+-149 ellipse-curve $-1 -1 $-1 0 0 0 0 0 1 16 0 0 1 I I #
+-150 straight-curve $-1 -1 $-1 -18.863534106128288 -14.000000000000002 0 -1000 -0 -0 I I #
+-151 integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $133 copy keep_kept ignore copy @18 Taglio-Estrusione1 0 #
+-152 plane-surface $-1 -1 $-1 -18.863534106128288 -14.000000000000002 0 0 1 0 0 0 1000 forward_v I I I I #
+-153 point $-1 -1 $-1 -7.7459666924148305 14.000000000000002 30 #
+-154 straight-curve $-1 -1 $-1 -17.794454352149991 13.999999999999998 0 1000 2.5874382142766018e-013 0 I I #
+-155 straight-curve $-1 -1 $-1 -7.7459666924148305 14.000000000000002 30 -0 -0 -1000 I I #
+-156 point $-1 -1 $-1 -7.7459666924148305 14.000000000000002 0 #
+End-of-ACIS-data 
